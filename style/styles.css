@@ -42,31 +42,37 @@ nav a
     text-decoration: none;
     margin-left: 20px;
 }
+
+nav a:hover {
+    background-color: rgb(212, 212, 79);
+    color: black;
+}
+
 #hero-msg h1, #hero-msg h4
 {
     text-align: center;
-    color: white;
+    color: black;
 }
 .book
 {
-    color: white;
+    color: black;
     font-size: 40px;
     text-decoration: none;
 }
 
 a.book:hover {
-    color: yellow;
+    color: #006D77;
 }
 
 .button-box
 {
     text-align: center;
-    color: white;
+    color: black;
 }
 main section
 {
     text-align: center;
-    color: white;
+    color: black;
 }
 #background {
     height: 725px;
@@ -77,10 +83,7 @@ main section
     height: 80px;
 }
 
-nav a:hover {
-    background-color: rgb(207, 207, 108);
-    color: black;
-}
+
 
 h3{
     color: white;
@@ -89,13 +92,17 @@ h3{
 }
 
 h3 a{
-    color: white;
+    color: black;
     font-size: 20px;
     
     
 }
 h3 a:hover{
     color: yellow;
+}
+.msg{
+    background-color: #006D77;
+    color: white;
 }
 
 .msg p{
@@ -108,6 +115,7 @@ h3 a:hover{
 
 footer a{
     text-decoration: none;
+    color: white;
 }
 
 .social{
@@ -125,6 +133,10 @@ footer a{
 
 a.join:hover{
     color: yellow;
+}
+
+footer{
+    background-color: #006D77;
 }
 
 
