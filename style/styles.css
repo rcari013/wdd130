@@ -51,7 +51,13 @@ nav a
 {
     color: white;
     font-size: 40px;
+    text-decoration: none;
 }
+
+a.book:hover {
+    color: yellow;
+}
+
 .button-box
 {
     text-align: center;
@@ -72,12 +78,13 @@ main section
 }
 
 nav a:hover {
-    background-color: steelblue;
+    background-color: rgb(207, 207, 108);
+    color: black;
 }
 
 h3{
     color: white;
-    text-align: center;
+
     font-size: 20px;
 }
 
@@ -85,6 +92,10 @@ h3 a{
     color: white;
     font-size: 20px;
     
+    
+}
+h3 a:hover{
+    color: yellow;
 }
 
 .msg p{
@@ -95,17 +106,25 @@ h3 a{
     font-size: 20px;
 }
 
+footer a{
+    text-decoration: none;
+}
 
 .social{
-
+    
     margin: 0 auto;
-    text-align: center;
+
 }
 
 .join
 {
-    text-align: center;
     color: white;
     font-size: 20px;
+    text-decoration: none;
 }
+
+a.join:hover{
+    color: yellow;
+}
+
 
