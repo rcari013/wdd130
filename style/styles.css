@@ -2,6 +2,59 @@
     margin: 10px 0px 0px 10px;
     width: 80px;
     height: 80px;
+    padding-top: 5px;
+}
+
+#hero{
+    margin-top: -30px;
+}
+
+#hero-msg h1{
+    font-family: 'Verdana', 'Helvetica', 'sans-serif';
+}
+
+h2{
+    font-family: 'Verdana', 'Helvetica', 'sans-serif';
+    margin: 0;
+}
+
+.msg{
+    background-color: #006D77;
+    color: white;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p{
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.msg h2{
+    font-size: 20px;
+}
+
+.card-img{
+    border: 10px solid black;
+}
+
+main section img{
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #fcfbfb;
+    font-family: "Arial", "Times New Roman", "sans-serif";
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-title {
+    font-family: 'Verdana', 'Helvetica', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 #logoid{
@@ -10,7 +63,7 @@
 }
 
 #content{
-    background-color: #006D77;
+    background-color: white;
     max-width: 1600px;
     
 }
@@ -22,6 +75,7 @@ nav{
 
 header{
     background-color: #006D77;
+    padding-bottom: 33px;
 }
 
 #hero-img{
@@ -40,7 +94,7 @@ nav a
     background-color: #83C5BE;
     color: white;
     font-size: 20px;
-    padding: 20px 20px 20px 20px ;
+    padding: 35px;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -60,10 +114,15 @@ nav a:hover {
     color: black;
     font-size: 40px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border-color: white;
+    
 }
 
 a.book:hover {
-    color: #006D77;
+    color: yellow;
 }
 
 .button-box
@@ -83,6 +142,7 @@ main section
 .icon {
     width: 80px;
     height: 80px;
+    padding-top: 10px;
 }
 
 
@@ -102,27 +162,17 @@ h3 a{
 h3 a:hover{
     color: yellow;
 }
-.msg{
-    background-color: #006D77;
-    color: white;
-}
 
-.msg p{
-    font-size: 20px;
-}
-
-.msg h2{
-    font-size: 20px;
-}
 
 footer a{
     text-decoration: none;
     color: white;
 }
 
-.social{
+footer .social{
     
     margin: 0 auto;
+    padding-top: 15px;
 
 }
 
@@ -131,6 +181,9 @@ footer a{
     color: white;
     font-size: 20px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 a.join:hover{
@@ -139,6 +192,10 @@ a.join:hover{
 
 footer{
     background-color: #006D77;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-
+.mountains{
+    width: 1600px;
+}
