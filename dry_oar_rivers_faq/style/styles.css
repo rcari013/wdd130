@@ -36,22 +36,12 @@ h2{
     width: 200px;
     height: 200px;
 }
-.card-img:hover {
-    opacity: .6;
-    transform: scale(1.1);
-}
-.card-img, .mountains {
-    width: 100%;
-}
+
+
 
 main section img{
     box-sizing: border-box;
     
-}
-
-.home-grid{
-    display: grid;
-    grid-template-columns: 10fr;
 }
 
 
@@ -104,12 +94,15 @@ header{
     grid-template-columns: 150px auto;
 }
 
+
 #hero{
     margin-top: -30px;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -100px; 
+
 }
+
 
 #hero-msg{
     grid-column: 2/3;
@@ -119,9 +112,7 @@ header{
     
 }
 
-#hero-msg h1{
-    font-family: 'Verdana', 'Helvetica', 'sans-serif';
-}
+
 
 #hero-img{
 
@@ -132,17 +123,27 @@ header{
     background-color: #006D77;
 
 }
+
+.faq_title
+{
+    color: white;
+    text-shadow: black;
+    font-size: 100px;
+}
+#faq{
+    grid-column: 1/4;
+    grid-row: 2/4;
+    margin: 0 auto;
+    z-index: 1;
+
+
+}
 #hero-box {
     grid-column: 1/4;
-    grid-row: 1/3;
-
+    grid-row: 1/5;
 }
 
-#hero-msg h1, #hero-msg h4
-{
-    text-align: center;
-    color: black;
-}
+
 
 nav a
 {
@@ -245,7 +246,7 @@ a.join:hover{
 footer{
     background-color: #006D77;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -279,12 +280,24 @@ footer{
     grid-row: 4/9;
 }
 
+.question_title{
+    font-size: large;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.answer{
+    font-weight: 100;
+}
+
+
+
 
 
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .faq_grid {
         display: block;
         height: auto;
     }
