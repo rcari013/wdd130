@@ -23,15 +23,6 @@ h2{
     width: 500px;
 }
 
-.msg p{
-    font-size: 20px;
-    padding-bottom: 15px;
-}
-
-.msg h2{
-    font-size: 20px;
-}
-
 .card-img{
     border: 10px solid black;
     transition: transform .5s;
@@ -52,11 +43,36 @@ main section img{
     
 }
 
-.home-grid{
+#home-banner{
     display: grid;
-    grid-template-columns: 10fr;
+    grid-template-columns: 1fr 3fr 1fr;
+    
 }
 
+#main-banner-box {
+    grid-column: 1/4;
+    grid-row: 1/5;
+}
+
+
+#main-banner-msg{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    margin: 0 auto;
+    z-index: 1;
+
+}
+#main-banner-img{
+    width: 100%;
+}
+
+.main-banner-message{
+    color: #055961;
+    font-size: 100px;
+    align-content: flex-start;
+    z-index: 1;
+    
+}
 
 body{
     background-color: #fcfbfb;
@@ -73,7 +89,7 @@ body{
 }
 
 #logoid{
-    background-color: #006D77;
+    background-color: #31b6a9;
     margin-right: 900px;
     justify-self: center;
     align-self: center;
@@ -91,6 +107,7 @@ body{
     padding-bottom: 50px;
     padding-top: 50px;
     font-size: larger;
+    background-color: #31b6a9;
 }
 
 
@@ -102,39 +119,35 @@ nav{
 }
 
 header{
-    background-color: #006D77;
+    background-color: #31b6a9;
     padding-left: 600px;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
-
-
-
-#main-banner-msg h1{
-    font-family: 'Verdana', 'Helvetica', 'sans-serif';
-}
-
-#main-banner-img{
-
-    width: 100%;
-    display: block;
+#button-box{
+    display: flex;
     margin: 0 auto;
-    margin-top: 30px;
-    background-color: #006D77;
-
-}
-#main-banner-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-
+    justify-content: center;
+    
 }
 
-#main-banner-msg h1, #main-banner-msg h4
-{
+.learn-more-button{
+
+    background-color: #055961;
+    border: none;
+    color: white;
+    padding: 15px 32px;
     text-align: center;
-    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: larger;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+
 }
+
 
 nav a
 {
@@ -152,6 +165,29 @@ nav a:hover {
     color: black;
 }
 
+#short-story p{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+  
+}
+
+#short-intro h1{
+    color: #055961;
+    font-size: x-large;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+#short-intro p{
+
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
 
 .book
 {
@@ -164,6 +200,55 @@ nav a:hover {
     border-color: white;
     
 }
+
+#reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+    grid-gap: 50px;
+    margin-left: 100px;
+}
+
+#reviews p{
+    text-align: justify;
+    font-size: large;
+}
+
+#review-1{
+    padding: 10px 10px 10px 10px; 
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+#review-2{
+    padding: 10px 10px 10px 10px; 
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#review-3{
+    padding: 10px 10px 10px 10px; 
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.reviewer{
+    text-align: left;
+}
+
+.reviewer-picture{
+    display: inline;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-color: #31b6a9;
+    border-width: 5px;
+    text-align: right;
+    margin-left: 200px;
+    margin-top: -50px;
+}
+
+
 
 main section
 {
@@ -179,7 +264,6 @@ main section
     height: 80px;
     padding-top: 10px;
 }
-
 
 
 h3{
@@ -223,13 +307,15 @@ footer .social{
 
 
 footer{
-    background-color: #006D77;
+    background-color: #31b6a9;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 
 @media screen and (max-width: 900px) {
@@ -247,10 +333,10 @@ footer{
     #main-banner {
         margin-top: 0;
     }
-    #main-banner-msg {
+    #main-banner-message {
         margin-top: 0;
     }
-    #main-banner-msg h4 {
+    #main-banner-message h4 {
         display: none;
     }
     .home-title {
