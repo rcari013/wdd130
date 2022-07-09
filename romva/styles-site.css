@@ -43,14 +43,14 @@ body, html {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #006D77;
+    color: #055961;
     text-shadow: 2px 2px black;
     
   }
   
   .caption .border {
-    color: #fff;
-    padding: 18px;
+    
+    padding-top: -200px;
     font-size: 80px;
     letter-spacing: 10px;
     text-shadow: 2px 2px black;
