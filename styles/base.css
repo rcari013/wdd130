@@ -28,6 +28,14 @@ nav{
     margin-right: 10px;
 }
 
+
+
+#menu-button {
+    max-width: 50px;
+    margin: 10px;
+}
+
+
 header {
     height: 100px;
     color: var(--secondary-color);
