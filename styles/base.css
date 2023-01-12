@@ -9,7 +9,7 @@
     --page-margin: 5rem;
     --dark-mode-accent: #000000d7;
     --dark-mode-bg: #000000d9;
-    --dark-mode-text: #ffa844;
+    --dark-mode-text: white
 
 }
 
@@ -137,6 +137,8 @@ footer {
 }
 li a.menu-item {
 	display: none;
+    
+    
 }
 li a.open {
 	display: flex;
@@ -146,6 +148,7 @@ li a.open {
 /* Dark mode toggle */
 .darkMenu {
     background: var(--dark-mode-accent);
+    
 }
 .darkBody {
     background: var(--dark-mode-bg);
@@ -157,3 +160,6 @@ li a.open {
     background: var(--dark-mode-accent);
 }
 
+.darkBackground{ 
+    background: var(--dark-mode-accent);
+}
