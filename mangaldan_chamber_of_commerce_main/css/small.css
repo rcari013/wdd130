@@ -74,6 +74,11 @@ main {
   display: none;
 }
 /* small view hidden large */
+
+.blanks_balancer{
+  color: #F7F7F7 !important;
+}
+
 .socials-footer {
   display: block;
   font-size: 50px;

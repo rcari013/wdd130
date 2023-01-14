@@ -60,6 +60,11 @@ Fonts are separated by a | */
   {
     color: #2E2E2E;
   }
+
+  .blanks_balancer{
+    color: #F7F7F7 !important;
+  }
+
   .socials {
     display: flex;
   }
