@@ -103,6 +103,8 @@ Fonts are separated by a | */
   .phone {
     color: var(--primary-color);
   }
+
+
   .headertitle {
     text-align: center;
     font-size: 20px;
