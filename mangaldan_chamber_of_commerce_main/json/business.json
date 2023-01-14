@@ -1,0 +1,67 @@
+{
+    "business": [
+        {
+            "name": "Bear River Bowling Center LLC",
+            "description": "Bowling Alley",
+            "phone": "435-257-1997",
+            "website": "bearriverbowling.com",
+            "imageurl": "images/brblogo.jpg"
+        },
+        {
+            "name": "The Grille Restaurant",
+            "description": "American Restaurant",
+            "phone": "435-257-4745",
+            "website": "thegrillerestaurant.com",
+            "imageurl": "images/grillelogo.jpg"
+        },
+        {
+            "name": "Maverik",
+            "description": "Fuel Supplier",
+            "phone": "435-214-4455",
+            "website": "maverik.com",
+            "imageurl": "images/mavlogo.png"
+        },
+        {
+            "name": "Ridley’s Family Markets",
+            "description": "Grocery Store",
+            "phone": "435-557-7011",
+            "website": "shopridleys.com",
+            "imageurl": "images/ridleylogo.jpg"
+        },
+        {
+            "name": "Skyway Golf Course",
+            "description": "Golf Course",
+            "phone": "435-257-5706",
+            "website": "skywaycountryclub.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Miller's Travel Centers",
+            "description": "Transportation Service",
+            "phone": "435-257-4570",
+            "website": "millerstravelcenter.com",
+            "imageurl": "images/millers.png"
+        },
+        {
+            "name": "Tamashi Sushi & Ramen Bar",
+            "description": "Restaurant",
+            "phone": "435-257-0978",
+            "website": "tamashisushiramenbar.com",
+            "imageurl": ""
+        },
+        {
+            "name": "Domino’s Pizza",
+            "description": "Pizza Delivery",
+            "phone": "435-257-5881",
+            "website": "dominos.com",
+            "imageurl": "images/domlogo.jpg"
+        },
+        {
+            "name": "Bear River High School",
+            "description": "High School",
+            "phone": "435-515-5800",
+            "website": "brhs.besd.net",
+            "imageurl": "images/brhslogo.jpg"
+        }
+    ]
+}
