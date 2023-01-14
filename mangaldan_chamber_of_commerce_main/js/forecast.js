@@ -26,7 +26,7 @@ fetch(forecastURL)
     temp.innerHTML = `${temporary_temp.toFixed(2)} °F`;
     desc.innerHTML = `${x.weather[0].description}`.toUpperCase(); 
     image.setAttribute('src', imagesrc);
-    image.setAttribute('alt', "forecasted-weather");
+    image.setAttribute('alt', "forecasted-weather"+counter);
 
     
     if (weekday <5) {
