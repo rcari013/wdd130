@@ -55,6 +55,11 @@ Fonts are separated by a | */
     margin: 0;
     font-size: 28px;
   }
+
+  .numbertext2
+  {
+    color: #2E2E2E;
+  }
   .socials {
     display: flex;
   }
