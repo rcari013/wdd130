@@ -483,10 +483,12 @@ footer {
   margin: auto;
 }
 
-.against_the_light{
-  color: rgb(255, 255, 0) !important;
-  text-shadow: black 1px 0 10px;
+.numbertext2
+{
+  color: #2E2E2E;
 }
+
+
 
 .recent_events{
   color: var(--primary-color);
