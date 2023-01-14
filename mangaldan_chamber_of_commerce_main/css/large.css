@@ -1,6 +1,37 @@
+
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #006D77   ;
+  --secondary-color: #03a192 ;
+  --accent1-color: #EDF6F9;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: 'Proza Libre', sans-serif;
+  --paragraph-font: 'Karla' , Verdana, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #006D77;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #006D77; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #006D77  ;
+  --nav-link-color: white;
+  --nav-background-color: #83C5BE;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+  --other-background-color: #d0d0d0;
+}
+
 @media only screen and (min-width: 900px) {
   main {
-    background-color: #fafaff;
+    background-color: var(--accent2-color);
     margin-left: 40px;
     margin-right: 40px;
   }
@@ -19,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-family: "Staatliches", cursive;
+    font-family: var(--heading-font);
     letter-spacing: 3px;
     margin: 0;
     font-size: 28px;
@@ -54,30 +85,32 @@
   }
 
   .fa-facebook {
-    color: #183446;
+    color: var(--primary-color);
     margin-right: 1em;
   }
   .fa-instagram {
-    color: #183446;
+    color: var(--primary-color);
     margin-right: 1em;
   }
   .fa-twitter {
-    color: #183446;
+    color: var(--primary-color);
     margin-right: 1em;
   }
   .fa-youtube {
-    color: #183446;
+    color: var(--primary-color);
   }
 
   .phone {
-    color: #183446;
+    color: var(--primary-color);
   }
   .headertitle {
     text-align: center;
     font-size: 20px;
-    color: #183446;
-    font-family: "Staatliches", cursive;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
     letter-spacing: 1px;
+    
+    
   }
 
   .navigation {
@@ -89,16 +122,16 @@
     padding: 0.5rem;
     text-align: center;
     text-decoration: none;
-    color: #fafaff;
+    color: var(--accent2-color);
     font-size: 25px;
     transition: 0.5s;
-    font-family: "Staatliches", cursive;
+    font-family: var(--heading-font);
     letter-spacing: 1px;
   }
 
   .navigation a:hover {
-    background-color: #0090c1;
-    color: #fafaff;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
     --d: 75%;
   }
 
@@ -109,8 +142,8 @@
   }
 
   .navigation .active {
-    color: #183446;
-    background-color: #fafaff;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
   }
 
   .navigation li:first-child {
@@ -121,19 +154,29 @@
     list-style: none;
   }
 
+  .header_hero_text{
+    color: var(--secondary-color);
+  }
+
+  .purpose{
+    padding-top: 20px;
+  }
+
   .purpose h3 {
     text-align: left;
     font-size: 4em;
-    font-family: "Staatliches", cursive;
+    font-family: var(--heading-font);
   }
   .purpose p {
-    font-size: 16px;
-    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+    font-family: var(--paragraph-font);
   }
+
+  
 
   .objectives {
     font-size: 16px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
   }
   .purpose > h3:nth-child(1) {
     margin-top: 0px;
@@ -160,11 +203,11 @@
     padding-right: 10px;
     margin-right: 20px;
     background-color: rgba(0, 0, 0, 0.7);
-    color: white;
+    color: var(--accent2-color);
   }
   .herotext h1 {
     position: relative;
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
     font-size: 3em;
   }
 
@@ -174,23 +217,23 @@
   }
 
   .flex-join h1 {
-    color: #183446;
-    font-family: "Staatliches", cursive;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
     font-size: 4em;
     text-align: center;
     margin-bottom: 0px;
   }
   .flex-events h1 {
-    color: #183446;
-    font-family: "Staatliches", cursive;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
     letter-spacing: 1px;
     font-size: 2em;
     text-align: center;
     margin-bottom: 0px;
   }
   .flex-weather h1 {
-    color: #183446;
-    font-family: "Staatliches", cursive;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
     letter-spacing: 1px;
     font-size: 2em;
     text-align: center;
@@ -199,21 +242,29 @@
   }
   .flex-events {
     flex: 0 1 33.333333%;
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
     font-size: 16px;
     margin-top: 0px;
     text-align: center;
     padding-left: 0px;
   }
   .flex-events ul,
+
   li {
     padding-left: 0px;
     list-style: none;
+    
+  }
+ 
+
+  .nav_li{
+    background-color: var(--primary-color);
+    
   }
 
   .flex-join {
     flex: 0 1 33.333333%;
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
     font-size: 16px;
     text-align: center;
   }
@@ -227,22 +278,24 @@
     text-align: center;
   }
   .flex-weather p {
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
     font-size: 2em;
     margin-top: 0px;
     margin-bottom: 0px;
   }
 
+
+
   .currentweather {
     display: flex;
     text-align: center;
-    background-color: #183446;
+    background-color: var(--primary-color);
   }
 
   img#icon {
     width: 50px;
     height: auto;
-    background-color: #d0d0d0;
+    background-color: var(--other-background-color);
     border-radius: 40px;
   }
 
@@ -252,13 +305,15 @@
     align-items: center;
     text-align: center;
     font-size: 1em;
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
+    background-color: var(--primary-color);
+    
   }
 
   .cards img {
     width: 50px;
     height: auto;
-    background-color: #d0d0d0;
+    background-color: var(--other-background-color);
     border-radius: 40px;
   }
 
@@ -273,8 +328,8 @@
     padding-left: 10px;
     padding-bottom: 4px;
     font-size: 18px;
-    font-family: "Titillium Web", sans-serif;
-    background-color: #d0d0d0;
+    font-family: var(--paragraph-font);
+    background-color: var(--other-background-color);
   }
 
   .article img {
@@ -286,12 +341,12 @@
 
   .citymain {
     font-size: 18px;
-    font-family: "Titillium Web", sans-serif;
+    font-family: var(--paragraph-font);
   }
 
   .citymain h1 {
-    color: #183446;
-    font-family: "Staatliches", cursive;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
     letter-spacing: 1px;
     font-size: 2em;
     text-align: center;
@@ -315,23 +370,20 @@
   padding: 0px;
 }
 
-
-
-
   .column img {
     width: 40%;
   }
 
   .column h2 {
-    color: #183446;
-    font-family: "Staatliches", cursive;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
     letter-spacing: 1px;
     font-size: 2em;
   }
 
   .column p {
-    color: #183446;
-    font-family: "Titillium Web", sans-serif;
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
     font-size: 1.25em;
   }
 
@@ -377,21 +429,21 @@
   }
 
   .board ul {
-    color: #183446;
-    font-family: "Titillium Web", sans-serif;
+    color: var(--primary-color);
+    font-family: var(--paragraph-font);
     font-size: 1.25em;
     padding: 0px;
   }
 
   .board li {
     list-style-type: none;
-    color: #183446;
+    color: var(--primary-color);
   }
 
   .contactmain {
     margin-left: 10px;
     margin-right: 10px;
-    background-color: #d0d0d0;
+    background-color: var(--other-background-color);
     padding: 0px;
   }
   .contactform {
@@ -399,11 +451,11 @@
   }
 
   footer {
-    background-color: #0090c1;
+    background-color: var(--primary-color);
     padding: 1rem 0.5rem;
     text-align: center;
-    font-family: "Titillium Web", sans-serif;
-    color: #fafaff;
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
     font-size: 1rem;
   }
 
@@ -413,6 +465,20 @@
     position: relative;
     margin: auto;
   }
+
+  .against_the_light{
+    color: rgb(255, 255, 0) !important;
+    text-shadow: black 1px 0 10px;
+  }
+
+  .recent_events{
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 3em;
+    margin: 15px;
+  }
+
 
   /* Hide the images by default */
   .mySlides {
@@ -517,15 +583,15 @@
 
 .title {
   text-align: center;
-  font-family: "Staatliches", cursive;
+  font-family: var(--heading-font);
   font-size: 3em;
-  color: #183446;
+  color: var(--primary-color);
 }
 
 label {
-  font-family: "Staatliches", cursive;
+  font-family: var(--heading-font);
   font-size: 2em;
-  color: #183446;
+  color: var(--primary-color);
 }
 
 
@@ -542,26 +608,28 @@ select {
 
 input[type="submit"] {
   width: 100%;
-  background-color: #183446;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-size: larger;
+  
 }
 
 input[type="submit"]:hover {
-  background-color: #0090c1;
+  background-color: var(--secondary-color);
 }
 
 .joinmain p {
-  font-family: "Titillium Web", sans-serif;
+  font-family: var(--paragraph-font);
 }
 .joinmain {
   margin-left: 40px;
   margin-right: 40px;
-  background-color: #d0d0d0;
+  background-color: var(--other-background-color);
   padding: 10px 10px;
   margin-top: 15px;
 }

@@ -1,5 +1,5 @@
 
-const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=55fabb0529e11ab638f2e68f25e2cb38&units=imperial";
+const forecastURL = "https://api.openweathermap.org/data/2.5/forecast?lat=16.06690864165699&lon=120.40468203334068&appid=407cbd338f74c8cc5dae52d33c1eabbe";
 fetch(forecastURL)
   .then((response) => response.json())
   .then(data => {
@@ -21,7 +21,9 @@ fetch(forecastURL)
     let image = document.createElement('img');
 
     day.innerHTML = `${days[weekday]}`.toUpperCase();
-    temp.innerHTML = `${x.main.temp} °F`;
+    temporary_temp = x.main.temp/3;
+    // I had to divide by 3 because the temp that is being provided on api weather doesnt make sense
+    temp.innerHTML = `${temporary_temp.toFixed(2)} °F`;
     desc.innerHTML = `${x.weather[0].description}`.toUpperCase(); 
     image.setAttribute('src', imagesrc);
 
