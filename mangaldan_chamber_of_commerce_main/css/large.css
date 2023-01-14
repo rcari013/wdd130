@@ -470,10 +470,6 @@ Fonts are separated by a | */
 
 
 
-  .against_the_light{
-    color: rgb(255, 255, 0) !important;
-    text-shadow: black 1px 0 10px;
-  }
 
   .recent_events{
     color: var(--primary-color);
