@@ -96,6 +96,29 @@ a {
     padding: 5px;
 }
 
+#temple_picture{
+    margin: 0 auto;
+    
+}
+
+.fixme {
+    width: 100%;
+    height: auto;
+  }
+
+  picture {
+    align-items: center;
+    text-align: center;
+  }
+
+
+
+
+.autoresize {
+    width: 100%;
+    height: auto;
+  }
+
 footer {
     text-align: center;
     padding: 0.5rem;
