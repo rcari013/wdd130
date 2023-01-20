@@ -186,3 +186,8 @@ li a.open {
 .darkBackground{ 
     background: var(--dark-mode-accent);
 }
+
+.iframeSize{
+    width: 600px;
+    height: 450px;
+}
