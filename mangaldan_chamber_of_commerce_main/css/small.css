@@ -208,8 +208,7 @@ main {
   margin-right: 10px;
 }
 
-
-.purpose h2 {
+.purpose h3 {
   text-align: left;
   font-size: 4em;
   font-family: var(--heading-font);
@@ -518,6 +517,11 @@ footer {
   text-align: center;
   font-size: 2em;
   margin: 15px;
+}
+
+.recent_events_size{
+  width: 100%;
+  
 }
 
 
