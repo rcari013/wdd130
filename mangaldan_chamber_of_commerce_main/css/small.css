@@ -84,6 +84,7 @@ main {
 .socials-footer {
   display: block;
   font-size: 50px;
+  background-color: #70F3FF;
 }
 .phone-footer {
   display: block;
@@ -93,18 +94,22 @@ main {
 }
 .socials-footer a:link {
   text-decoration: none;
+  background-color: #70F3FF;
 }
 
 .socials-footer a:visited {
   text-decoration: none;
+  background-color: #70F3FF;
 }
 
 .socials-footer a:hover {
   text-decoration: none;
+  background-color: #70F3FF;
 }
 
 .socials-footer a:active {
   text-decoration: none;
+  background-color: #70F3FF;
 }
 
 .fa-facebook {
