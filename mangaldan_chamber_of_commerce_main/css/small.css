@@ -113,24 +113,24 @@ main {
 }
 
 .fa-facebook {
-  color: var(--other-background-color-3);
+  color: #FFFFFF;
   margin-right: 1em;
   
 }
 .fa-instagram {
-  color: var(--other-background-color-3);
+  color: #FFFFFF;
   margin-right: 1em;
 }
 .fa-twitter {
-  color: var(--other-background-color-3);
+  color: #FFFFFF;
   margin-right: 1em;
 }
 .fa-youtube {
-  color: var(--other-background-color-3);
+  color: #FFFFFF;
 }
 
 .phone {
-  color: var(--other-background-color-3);
+  color: #FFFFFF;
 }
 .headertitle {
   text-align: center;
