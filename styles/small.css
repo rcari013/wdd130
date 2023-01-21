@@ -1,44 +1,10 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css?family=Karla');
-@import url('https://fonts.googleapis.com/css2?family=Proza+Libre:wght@500&display=swap');
-
-:root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #006D77   ;
-  --secondary-color: #03a192 ;
-  --accent1-color: #EDF6F9;
-  --accent2-color: white;
-
-  /* change the values below to your chosen font(s) */
-  --heading-font: 'Proza Libre', sans-serif;
-  --paragraph-font: 'Karla' , Verdana, sans-serif;
-
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #006D77;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #006D77; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #006D77  ;
-  --nav-link-color: white;
-  --nav-background-color: #83C5BE;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
-  --other-background-color: #d0d0d0;
-  --other-background-color-2: #707070;
-  --other-background-color-3: #FAFAFF;
-}
-
-@media only screen and (min-width: 300px)
-{
-  /* HOME PAGE HEADER AND NAV */
+/* HOME PAGE HEADER AND NAV */
 body {
   overflow-x: hidden;
   
 }
 main {
-  background-color: var(--other-background-color);
+  background-color: #fafaff;
   margin-left:10px;
   margin-right:10px;
 }
@@ -62,7 +28,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--other-background-color-3);
+    background-color: #FAFAFF;
   }
 
   .headerbar img {
@@ -76,11 +42,6 @@ main {
   display: none;
 }
 /* small view hidden large */
-
-.blanks_balancer{
-  color: #F7F7F7 !important;
-}
-
 .socials-footer {
   display: block;
   font-size: 50px;
@@ -88,8 +49,8 @@ main {
 .phone-footer {
   display: block;
   font-size: 18px;
-  color: var(--other-background-color-3);
-  font-family: var(--paragraph-font);
+  color: #FAFAFF;
+  font-family: "Titillium Web", sans-serif;
 }
 .socials-footer a:link {
   text-decoration: none;
@@ -108,39 +69,39 @@ main {
 }
 
 .fa-facebook {
-  color: var(--other-background-color-3);
+  color: #FAFAFF;
   margin-right: 1em;
   
 }
 .fa-instagram {
-  color: var(--other-background-color-3);
+  color: #FAFAFF;
   margin-right: 1em;
 }
 .fa-twitter {
-  color: var(--other-background-color-3);
+  color: #FAFAFF;
   margin-right: 1em;
 }
 .fa-youtube {
-  color: var(--other-background-color-3);
+  color: #FAFAFF;
 }
 
 .phone {
-  color: var(--other-background-color-3);
+  color: #FAFAFF;
 }
 .headertitle {
   text-align: center;
   font-size: 1em;
   letter-spacing: .5px;
-  background-color: var(--other-background-color-3);
-  color: var(--primary-color);
+  background-color: #FAFAFF;
+  color: #04080F;
   margin-top: 0px;
   padding-bottom:5px;
-  font-family: var(--heading-font);
+  font-family: "Staatliches", cursive;
 }
   
   #navbar {
     overflow: hidden;
-    background-color: var(--primary-color);
+    background-color: #183446;
     font-size: 0px;
   }
 
@@ -161,14 +122,14 @@ main {
     display: block;
     text-align: right;
     text-decoration: none;
-    color: var(--other-background-color-3);
+    color: #FAFAFF;
     font-size: 2.75rem;
     transition: 0.5s;
-    font-family: var(--heading-font);
+    font-family: "Staatliches", cursive;
   }
   .navigation a:hover {
-    background-color: var(--secondary-color);
-    color: #00535a;
+    background-color: #fafaff;
+    color: #183446;
   }
   
   .responsive li {
@@ -185,7 +146,7 @@ main {
 
 .herotext h1 {
   position: relative;
-  font-family: Arial, Helvetica;
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 10px;
   margin-right:10px;
 }
@@ -194,7 +155,7 @@ main {
 .objectives li {
   list-style:disc;
   font-size: 20px;
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
   margin-left:10px;
   margin-right:10px;
 }
@@ -207,21 +168,17 @@ main {
 .purpose h3 {
   text-align: left;
   font-size: 4em;
-  font-family: var(--heading-font);
+  font-family: "Staatliches", cursive;
 }
 .purpose p {
   font-size: 20px;
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
   
-}
-
-.header_hero_text{
-  color: var(--primary-color);
 }
 
 .objectives {
   font-size: 16px;
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
 }
 .purpose > h3:nth-child(1) {
   margin-top: 0px;
@@ -241,38 +198,38 @@ main {
 }
 
 .herotext {
-  color: black;
+  color: #183446;
 }
 .herotext h1 {
   position: relative;
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
   font-size: 3em;
 }
 
 .flex-container {
-  background-color: var(--other-background-color);
+  background-color: #d0d0d0;
   text-align: center;
 }
 
 .flex-join h1 {
-  color: var(--primary-color);
-  font-family: var(--heading-font);
+  color: #183446;
+  font-family: "Staatliches", cursive;
   font-size: 4em;
   text-align: center;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 .flex-events h1{
-color: var(--primary-color);
-font-family: var(--heading-font);
+color: #183446;
+font-family: "Staatliches", cursive;
 letter-spacing: 1px;
 font-size: 2em;
 text-align: center;
 margin-bottom: 0px;
 }
 .flex-weather h1{
-color: var(--primary-color);
-font-family: var(--heading-font);
+color: #183446;
+font-family: "Staatliches", cursive;
 letter-spacing: 1px;
 font-size: 2em;
 text-align: center;
@@ -281,7 +238,7 @@ margin-bottom: 0px;
 }
 .flex-events {
   flex: 0 1 33.333333%;
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
   margin-top: 0px;
   text-align: center;
@@ -294,12 +251,12 @@ list-style: none;
 
 .flex-join {
   flex: 0 1 33.333333%;
-  font-family: var(--paragraph-font);
+  font-family: "Titillium Web", sans-serif;
   font-size: 16px;
   text-align: center;  
   border-width: 2px;
   border-style: double;
-  border-color: var(--primary-color);
+  border-color: #0090c1;
   margin-top: 0px;
 }
 .flex-join form {
@@ -307,7 +264,7 @@ list-style: none;
 }
 .flex-weather {
   flex: 0 1 33.333333%;
-  margin-top:0px;
+ margin-top:0px;
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
@@ -315,7 +272,7 @@ list-style: none;
   margin-bottom: 10px;
 }
 .flex-weather p {
-font-family: var(--paragraph-font);
+font-family: "Titillium Web", sans-serif;
   font-size: 2em;
   margin-top:0px;
   margin-bottom:0px;
@@ -324,13 +281,13 @@ font-family: var(--paragraph-font);
 .currentweather {
 display: flex;
 text-align: center;
-background-color: var(--primary-color);
+background-color: #183446;
 }
 
 img#icon {
 width: 50px;
 height: auto;
-background-color: var(--other-background-color);
+background-color: #d0d0d0;
 border-radius: 40px;
 }
 
@@ -341,17 +298,18 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 align-items: center;
 text-align: center;
 font-size: .55em;
-background-color: var(--primary-color);
-color: var(--other-background-color-3);
-font-family: var(--paragraph-font);
+background-color: #183446;
+color: #FAFAFF;
+font-family: "Titillium Web", sans-serif;
 }
 
 .cards img {
   width: 50px;
   height: auto;
-  background-color: var(--other-background-color);
+  background-color: #d0d0d0;
   border-radius: 40px;
 }
+
 
 
 .ads img {
@@ -363,14 +321,10 @@ font-family: var(--paragraph-font);
 }
 
 .article {
-
-  padding: 0em 2em 2em 2em;
-  font-family: var(--paragraph-font);
-  background-color: var(--other-background-color);
-  display: grid;
-  font-size: 18px;
-  grid-template-rows: 2fr;
-  margin: 0px 30px 30px 30px;
+  padding: 2em;
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  background-color: #d0d0d0;
   
 }
 
@@ -378,30 +332,23 @@ font-family: var(--paragraph-font);
   float: none;
   position: relative;
   width: 100%;
-  height: auto;
 }
 
 
-.townmain { 
+.citymain { 
   font-size: 18px;
-  font-family: var(--paragraph-font);
-  padding-bottom: 20px;
+  font-family: "Titillium Web", sans-serif;
 }
 
-.townmain h1 {
-  color: var(--primary-color);
-  font-family: var(--heading-font);
+.citymain h1 {
+  color: #183446;
+  font-family: "Staatliches", cursive;
   letter-spacing: 1px;
-  
+  font-size: 2em;
   text-align: center;
   margin-bottom: 0px;
 }
 
-.townintro{
-  padding: 2em 2em 0em 2em;
-  background-color: white !important;
-  
-}
 
 .bizdirect{  
   grid-template-columns:repeat(2, 1fr);  
@@ -447,8 +394,8 @@ font-family: var(--paragraph-font);
 }
 
 .flexcolumn h2 {
-  color: var(--primary-color);
-  font-family: var(--heading-font);
+  color: #183446;
+  font-family: "Staatliches", cursive;
   letter-spacing: 1px;
   font-size: 2em;
 }
@@ -459,21 +406,21 @@ font-family: var(--paragraph-font);
 }
 
 .board ul {
-  color: var(--primary-color);
-  font-family: var(--paragraph-font);
+  color: #183446;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.25em;
   padding: 0px;
 }
 
 .board li {
   list-style-type: none;
-  color: var(--primary-color);
+  color: #183446;
 }
 
 .contactmain {
   margin-left: 10px;
   margin-right: 10px;
-  background-color: var(--other-background-color);
+  background-color: #d0d0d0;
   padding: 0px;
 }
 .contactform {
@@ -484,10 +431,10 @@ font-family: var(--paragraph-font);
 
 
 footer {
-  background-color: var(--primary-color);
+  background-color: #04080F;
   padding: 20px;
-  color: var(--other-background-color-3);
-  font-family: var(--paragraph-font);
+  color: #FAFAFF;
+  font-family: "Titillium Web", sans-serif;
 }
 
 
@@ -499,22 +446,6 @@ footer {
   position: relative;
   margin: auto;
 }
-
-.numbertext2
-{
-  color: #2E2E2E;
-}
-
-
-
-.recent_events{
-  color: var(--primary-color);
-  font-family: var(--heading-font);
-  text-align: center;
-  font-size: 2em;
-  margin: 15px;
-}
-
 
 /* Hide the images by default */
 .mySlides {
@@ -605,30 +536,24 @@ footer {
 .joinmain {
   margin-left:10px;
   margin-right:10px;
-  background-color: var(--other-background-color);
+  background-color: #d0d0d0;
   padding: 10px 10px;
   margin-top: 15px;
 }
 
 .column h2 {
-  color: var(--primary-color);
-  font-family: var(--heading-font);
+  color: #183446;
+  font-family: "Staatliches", cursive;
   letter-spacing: 1px;
   font-size: 2em;
 }
 
 .column p {
-  color: var(--primary-color);
-  font-family: var(--paragraph-font);
+  color: #183446;
+  font-family: "Titillium Web", sans-serif;
   font-size: 1.25em;
 }
 
 .businessdesc {
   font-style: italic;
-}
-
-#attribution{
-  color: var(--accent2-color);
-}
-
 }

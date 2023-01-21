@@ -342,21 +342,27 @@ Fonts are separated by a | */
     font-size: 18px;
     font-family: var(--paragraph-font);
     background-color: var(--other-background-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
   }
 
   .article img {
     float: right;
-    width: 700px;
+    width: 100%;
+    height: auto;
     position: relative;
     padding: 15px;
+    
   }
 
-  .citymain {
+  .townmain {
     font-size: 18px;
     font-family: var(--paragraph-font);
   }
 
-  .citymain h1 {
+  .townmain h1 {
     color: var(--primary-color);
     font-family: var(--heading-font);
     letter-spacing: 1px;

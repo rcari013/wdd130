@@ -60,4 +60,18 @@
         color: #fff;
     
     }
+    .article {
+        padding: 2em;
+        font-size: 16px;
+        font-family: "Titillium Web", sans-serif;
+        background-color: #d0d0d0;
+        
+      }
+      
+      .article img {
+        float: none;
+        position: relative;
+        width: 100%;
+      }
+
 }
