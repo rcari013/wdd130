@@ -383,6 +383,7 @@ Fonts are separated by a | */
 .townevents {
   text-align: center;
   background-color: white !important;
+  margin: 0 auto;
 }
 
 .townevents ul {
