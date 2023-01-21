@@ -38,7 +38,7 @@ body {
   
 }
 main {
-  background-color: var(--other-background-color);
+  background-color: white;
   margin-left:10px;
   margin-right:10px;
 }
@@ -229,6 +229,14 @@ main {
   font-family: var(--heading-font);
 }
 
+.header_hero_text_center{
+  color: var(--primary-color);
+  font-size: 3em;
+  font-family: var(--heading-font);
+  text-align: center;
+  
+}
+
 .objectives {
   font-size: 16px;
   font-family: var(--paragraph-font);
@@ -406,6 +414,12 @@ font-family: var(--paragraph-font);
   text-align: center;
   margin-bottom: 0px;
 }
+.townevents {
+  text-align: center;
+  background-color: white !important;
+}
+
+
 
 .townintro{
   padding: 2em 2em 0em 2em;
@@ -566,7 +580,7 @@ footer {
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 16px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -577,7 +591,7 @@ footer {
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
+  font-size: 16px;
   padding: 8px 12px;
   position: absolute;
   top: 0;
@@ -646,7 +660,9 @@ footer {
   color: var(--accent2-color);
 }
 
-
+.bold_letters{
+  font-weight: bold;
+}
 
 
 }

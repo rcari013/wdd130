@@ -380,11 +380,12 @@ Fonts are separated by a | */
 
 
 
-.cityevents {
+.townevents {
   text-align: center;
+  background-color: white !important;
 }
 
-.cityevents ul {
+.townevents ul {
   padding: 0px;
 }
 
