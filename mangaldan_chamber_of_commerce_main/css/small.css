@@ -191,6 +191,9 @@ main {
   margin-right:10px;
 }
 
+.website_title{
+  margin-top: 0px;
+}
 
 .objectives li {
   list-style:disc;
@@ -631,5 +634,8 @@ footer {
 #attribution{
   color: var(--accent2-color);
 }
+
+
+
 
 }
