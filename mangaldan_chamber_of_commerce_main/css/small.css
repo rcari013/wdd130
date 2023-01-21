@@ -221,6 +221,8 @@ main {
 
 .header_hero_text{
   color: var(--primary-color);
+  font-size: 3em;
+  font-family: var(--heading-font);
 }
 
 .objectives {
