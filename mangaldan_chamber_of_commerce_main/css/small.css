@@ -84,7 +84,6 @@ main {
 .socials-footer {
   display: block;
   font-size: 50px;
-  background-color: #70F3FF;
 }
 .phone-footer {
   display: block;
@@ -94,43 +93,40 @@ main {
 }
 .socials-footer a:link {
   text-decoration: none;
-  background-color: #70F3FF;
+  background-color: none;
 }
 
 .socials-footer a:visited {
-  text-decoration: none;
-  background-color: #70F3FF;
+  background-color: none;
 }
 
 .socials-footer a:hover {
-  text-decoration: none;
-  background-color: #70F3FF;
+  background-color: none;
 }
 
 .socials-footer a:active {
-  text-decoration: none;
-  background-color: #70F3FF;
+  background-color: none;
 }
 
 .fa-facebook {
-  color: #FFFFFF;
+  color: var(--other-background-color-3);
   margin-right: 1em;
   
 }
 .fa-instagram {
-  color: #FFFFFF;
+  color: var(--other-background-color-3);
   margin-right: 1em;
 }
 .fa-twitter {
-  color: #FFFFFF;
+  color: var(--other-background-color-3);
   margin-right: 1em;
 }
 .fa-youtube {
-  color: #FFFFFF;
+  color: var(--other-background-color-3);
 }
 
 .phone {
-  color: #FFFFFF;
+  color: var(--other-background-color-3);
 }
 .headertitle {
   text-align: center;
