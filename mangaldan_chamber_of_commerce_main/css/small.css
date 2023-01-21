@@ -208,15 +208,10 @@ main {
   margin-right: 10px;
 }
 
-.purpose h3 {
-  text-align: left;
-  font-size: 4em;
-  font-family: var(--heading-font);
-}
 
 .purpose h2 {
   text-align: left;
-  font-size: 3em;
+  font-size: 4em;
   font-family: var(--heading-font);
 }
 .purpose p {
