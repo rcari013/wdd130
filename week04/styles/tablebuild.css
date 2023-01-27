@@ -12,50 +12,10 @@ body {
 	font-family: Acme, Arial, sans-serif;
 }
 
-h1 {
-	font-size: 1.5rem;
-}
 
 main {
-	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 1rem;
-	background-color: #ddd;
-	display: flex;
-	flex-direction: column;
-}
 
-input,
-button {
-	padding: 0.5rem;
-}
-
-button {
-	margin: 0.5rem;
-}
-
-.delete {
-	width: fit-content;
-}
-
-.input {
-	display: flex;
-	gap: 1rem;
-}
-
-.list {
-	padding: 0.5rem;
-}
-
-ul {
-	margin: 1rem;
-	list-style: none;
-}
-
-li {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
+	padding-right: 650px;
 }
 
 @media only screen and (min-width: 32.5em) {
@@ -67,3 +27,43 @@ li {
 		width: 320px;
 	}
 }
+
+table, th, td {
+	border: 1px black;
+	border-style:solid;
+	font-size: 50px;
+	
+	
+  }
+
+th{
+	color: rgb(255, 255, 255);
+	background-color: grey;
+}
+
+.black_background{
+	background-color: rgb(0, 0, 0) !important;
+
+}
+
+.center_text{
+	text-align: center;
+}
+
+td{
+	width: 100px;
+}
+
+table{
+	width: 1000px;
+	height: 20px;
+}
+
+.white_font{
+	color: white;
+}
+
+.background_color_grey{
+	background-color: grey;
+}
+
