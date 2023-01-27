@@ -61,7 +61,7 @@ main {
     flex-direction: column;
     margin: 1rem auto;
     align-items: center;
-    padding: 20px;
+    
 }
 
 h2 {
@@ -81,7 +81,7 @@ h3 {
     box-shadow: 5px 5px 15px #001d2c;
     border-radius: 20px;
     margin: 1rem;
-    min-width: 400px !important;
+    min-width: 450px;
 
 }
 
@@ -196,7 +196,7 @@ li a.open {
 
 #temple_title{
     
-    font-size:x-large;
+    font-size:large;
     margin-top: 5px;
     margin-left: 20px;
     border-radius:0;
@@ -208,10 +208,10 @@ li a.open {
 }
 
 #temple_div{
-    margin-left: 20px;
+    margin-left: -200px;
     margin-top: 20px;
-    width: 250px;
-    height: 75px;
+    width: 200px;
+    height: 70px;
     position: absolute;
     background-color: rgba(0,0,0,.5);
     color: #fff;
@@ -268,6 +268,9 @@ form input.submitButton {
     margin: 0 0 2rem 2rem;
     width: 96%;
     max-width: 15rem;
+    
+
+    
 }
 
 form label.top input:required {
@@ -297,12 +300,7 @@ form label.top input:required:valid {
     width: 0.50rem;
 }
 
-.rangecontianer {
-    width: 80%;
-    max-width: 16rem;
-    display: flex;
-    flex-direction: row;
-}
+
 
 .ratinglabels {
     max-width: 20rem;
@@ -314,10 +312,9 @@ form label.top input:required:valid {
 }
 
 
-.contact_form {
-    box-shadow: 5px 5px 15px #001d2c;
-    border-radius: 20px;
-    margin: 1rem;
-    min-width: 400px;
 
+
+.center_the_button{
+    text-align: center;
 }
+
