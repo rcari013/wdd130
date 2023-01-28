@@ -675,21 +675,18 @@ p{
   font-family: var(--paragraph-font);
 }
 
-.font_44px{
-  font-size: 44px !important;
-  font-family: var(--paragraph-font);
-}
+
 
 .form_height{
   height: 44px;
 }
 
 form input{
-  font-size: 44px;
+  font-size: 30px;
 }
 
 option, select{
-  font-size: 44px;
+  font-size: 30px;
   font-family: var(--paragraph-font);
 }
 
