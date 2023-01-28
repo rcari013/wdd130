@@ -17,6 +17,8 @@
   <script src="https://kit.fontawesome.com/f4c13a9aaa.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/small.css" />
   <link rel="stylesheet" href="css/large.css" />
+  <link rel="stylesheet" href="css/medium" />
+  <link rel="stylesheet" href="css/mo" />
   <script defer src="js/dates.js"></script>
   <script defer src="js/nav.js"></script>
 </head>
@@ -51,57 +53,57 @@
   </div>
 </nav>
 
-<main class="joinmain">
-   
+<main>
+   <section class="joinmain">
 
     <h1 class="title"> MANGALDAN CHAMBER OF COMMERCE REGISTRATION</h1>
     <form action="contactthanks.html">
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Required" required>
+        <label class="top" for="fname">First Name
+        <input type="text" id="fname" name="firstname" placeholder="Required" required></label>
       
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Required" required>
+        <label class="top" for="lname">Last Name
+        <input type="text" id="lname" name="lastname" placeholder="Required" required></label>
       
-        <label for="title">Title</label>
-        <input type="text" id="title" name="jobtitle" >
+        <label class="top" for="title">Title
+        <input type="text" id="title" name="jobtitle" ></label>
 
-        <label for="email">Email</label>
-        <input type="text" id="email" name="emailaddress" placeholder="Required" required>
+        <label class="top" for="email">Email
+        <input type="text" id="email" name="emailaddress" placeholder="Required" required></label>
 
-        <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone" pattern="((\+63)|0)\d{10}" placeholder="+639">
+        <label class="top" for="phone">Phone
+        <input type="text" id="phone" name="phone" pattern="((\+63)|0)\d{10}" placeholder="+639"></label>
 
-        <label for="businessname">Business Name</label>
-        <input type="text" id="businessname" name="businessname" placeholder="Required" required>
+        <label class="top" for="businessname">Business Name
+        <input type="text" id="businessname" name="businessname" placeholder="Required" required></label>
 
-        <label for="businessaddress">Business Address</label>
-        <input type="text" id="businessadress" name="businessadress" placeholder="Required" required>
+        <label class="top" for="businessaddress">Business Address
+        <input type="text" id="businessadress" name="businessadress" placeholder="Required" required></label>
 
-        <label for="businesssite">Business Website</label>
-        <input type="text" id="businesssite" name="businessite">
+        <label class="top" for="businesssite">Business website
+        <input type="text" id="businesssite" name="businessite"></label>
         
-        <label for="businessdesc">Business Description</label>
-        <input type="text" id="businessdesc" name="businessdesc" >
+        <label class="top" for="businessdesc">Business Description
+        <input type="text" id="businessdesc" name="businessdesc" ></label>
 
-        <label for="membership">Membership Level</label>
-        <select id="membership" name="membership" required>
-          <option value="" disabled selected>Select your membership level</option>
+        <label class="top" for="membership">Membership Level</label>
+        <div id="membership"><select name="membership" required>
+          <option value="" disabled selected>Select membership</option>
           <option value="gold">Gold | Php 50,000</option>
           <option value="silver">Silver | Php 20,000</option>
           <option value="bronze">Bronze | Php 15,000</option>
           <option value="nonprofit">Non-Profit | Php 5,000</option>
         </select>
-    
 
-        <input type="submit" class="font_35px" value="Join Now">
+
+        <input type="submit" class="font_35px submitButton" value="Join Now">
     </form>
 
         <p>Gold - Priority Directory Listings | Monthly Business Trainings | 4 Sponsored Social Media Posts a month | 3 Lunches Provided by Chamber | 3 Months Ad on Chamber Website</p>
         <p>Silver - Quarterly Business Trainings | 3 Sponsored Social Media Post a quarter | 1 Lunch Provided | 1 Month Ad on Chamber Website</p>
         <p>Bronze - Semi-Annual Business Trainings | 2 Semi-Annual Sponsored Social Media Post</p>
         <p>Non-Profit - Yearly Business Trainings | 1 Sponsored Social Media Post</p>
-
-      </main>
+    </section>
+</main>
     
     <br />
     <footer>

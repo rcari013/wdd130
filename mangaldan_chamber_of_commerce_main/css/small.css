@@ -36,9 +36,9 @@ Fonts are separated by a | */
 
 main {
   background-color: white;
+  
 
 }
-
 
 .header {
   background-color: #f1f1f1;
@@ -627,12 +627,20 @@ footer {
   to {opacity: 1}
 }
 
+
+
+
+
 .joinmain {
-  margin-left:10px;
-  margin-right:10px;
+  margin-left:40px;
+  margin-right:40px;
   background-color: var(--other-background-color);
   padding: 10px 10px;
   margin-top: 15px;
+  min-width: 400px;
+  
+  margin: 0 auto;
+  
   
 }
 
@@ -670,27 +678,60 @@ p{
   font-size: 25px !important;
 }
 
+/*------------FORM---------------*/
 .font_25px{
   font-size: 25px !important;
   font-family: var(--paragraph-font);
 }
 
-
-
 .form_height{
   height: 44px;
+  
 }
 
 form input{
   font-size: 30px;
+  
 }
 
 option, select{
   font-size: 30px;
   font-family: var(--paragraph-font);
+  
 }
 
+.top{
+  margin-bottom: -20px;
+}
+
+label{
+  display: block; 
+  margin-top: 40px;
+  padding-bottom: -30px;
+}
+
+#membership{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form input.submitButton{
+  border:none;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+#contact_div{
+  max-width: 400px;
 }
 
 
+
+
+}
 
