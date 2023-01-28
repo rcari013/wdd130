@@ -238,7 +238,7 @@ main {
 }
 
 .objectives {
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--paragraph-font);
 }
 .purpose > h3:nth-child(1) {
@@ -664,5 +664,13 @@ footer {
   font-weight: bold;
 }
 
+h2{
+  font-family: var(--heading-font);
+}
+
+p{
+  font-family: var(--paragraph-font);
+  font-size: 18px !important;
+}
 
 }
