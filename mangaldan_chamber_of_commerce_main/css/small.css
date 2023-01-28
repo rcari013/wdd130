@@ -33,10 +33,7 @@ Fonts are separated by a | */
 @media only screen and (min-width: 300px)
 {
   /* HOME PAGE HEADER AND NAV */
-body {
-  overflow-x: hidden;
-  
-}
+
 main {
   background-color: white;
 
@@ -677,7 +674,16 @@ p{
   font-family: var(--paragraph-font);
 }
 
+.font_44px{
+  font-size: 44px !important;
+  font-family: var(--paragraph-font);
+}
+
+.form_height{
+  height: 44px;
+}
 
 
 }
+
 
