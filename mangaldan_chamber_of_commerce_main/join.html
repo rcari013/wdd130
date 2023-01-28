@@ -67,7 +67,7 @@
         <input type="text" id="email" name="emailaddress" placeholder="Required" required>
 
         <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <input type="text" id="phone" name="phone" pattern="((\+63)|0)\d{10}" placeholder="+639">
 
         <label for="businessname">Business Name</label>
         <input type="text" id="businessname" name="businessname" placeholder="Required" required>
@@ -83,7 +83,7 @@
 
         <label for="membership">Membership Level</label>
         <select id="membership" name="membership" required>
-            <option value="" disabled selected>Select your membership level</option>
+          <option value="" disabled selected>Select your membership level</option>
           <option value="gold" class="font_44px">Gold | Php 50,000</option>
           <option value="silver" class="font_44px">Silver | Php 20,000</option>
           <option value="bronze" class="font_44px">Bronze | Php 15,000</option>
@@ -91,7 +91,7 @@
         </select>
     
 
-        <input type="submit" value="Submit">
+        <input type="submit" class="font_44px" value="Join Now">
     </form>
 
         <p>Gold - Priority Directory Listings | Monthly Business Trainings | 4 Sponsored Social Media Posts a month | 3 Lunches Provided by Chamber | 3 Months Ad on Chamber Website</p>

@@ -633,6 +633,7 @@ footer {
   background-color: var(--other-background-color);
   padding: 10px 10px;
   margin-top: 15px;
+  
 }
 
 .column h2 {
@@ -683,7 +684,16 @@ p{
   height: 44px;
 }
 
+form input{
+  font-size: 44px;
+}
+
+option, select{
+  font-size: 44px;
+  font-family: var(--paragraph-font);
+}
 
 }
+
 
 
