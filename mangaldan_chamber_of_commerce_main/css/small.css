@@ -36,9 +36,7 @@ Fonts are separated by a | */
 
 main {
   background-color: white;
-	max-width: 900px; 
-	margin: 0 auto; 
-	float: none; 
+
   
 
 }
@@ -733,8 +731,15 @@ form input.submitButton{
   max-width: 400px;
 }
 
+#center_joinmain{
+  max-width: 1080px; 
+	margin: 0 auto; 
+	float: none; 
+}
 
+form label.top input:required{
+  border-left: red solid 6px;
 
-
+}
 }
 
