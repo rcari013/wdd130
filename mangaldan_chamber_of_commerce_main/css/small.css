@@ -93,19 +93,19 @@ main {
 }
 .socials-footer a:link {
   text-decoration: none;
-  background-color: none;
+  background-color: transparent;
 }
 
 .socials-footer a:visited {
-  background-color: none;
+  background-color: transparent;
 }
 
 .socials-footer a:hover {
-  background-color: none;
+  background-color: transparent;
 }
 
 .socials-footer a:active {
-  background-color: none;
+  background-color: transparent;
 }
 
 .fa-facebook {
