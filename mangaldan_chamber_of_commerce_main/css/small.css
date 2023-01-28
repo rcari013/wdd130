@@ -670,7 +670,11 @@ h2{
 
 p{
   font-family: var(--paragraph-font);
-  font-size: 18px !important;
+  font-size: 25px !important;
+}
+
+.font_25px{
+  font-size: 25px !important;
 }
 
 }
