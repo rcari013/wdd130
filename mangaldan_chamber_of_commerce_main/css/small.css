@@ -36,6 +36,9 @@ Fonts are separated by a | */
 
 main {
   background-color: white;
+	max-width: 900px; 
+	margin: 0 auto; 
+	float: none; 
   
 
 }
