@@ -1,0 +1,11 @@
+{
+	"familyName": "Carino",
+	"dateFamilyMoved": "2023-01-30",
+	"numberOfPeopleInTheFamily": "2",
+	"visitedByBishopric": true,
+	"individualFamilyMembers": [{
+		"name": "Chishiya",
+		"gender": "m",
+		"birthDate": "1993-10-03"
+	}]
+}

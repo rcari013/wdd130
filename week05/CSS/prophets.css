@@ -1,0 +1,47 @@
+main, header {
+    margin: 0 auto;
+}
+
+section {
+    background-color: #d4d4e4;
+    padding: 10px;
+    border: 1px solid black;
+    width: 220px;
+    height: 400px;
+}
+
+.cards img {
+    max-width: 200px;
+     width: 100%;
+     height: auto;
+}
+
+.cards {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+}
+
+
+@media only screen and (min-width: 37.5em) {
+
+    .cards {
+        grid-template-columns: auto auto;
+
+    }
+
+}
+
+/* Desktop Views ****************************/
+@media only screen and (min-width: 60em) {
+ 
+
+    .cards {
+        margin: 1rem auto;
+        grid-template-columns: auto auto auto auto;
+        max-width: 1048px;
+    }
+
+}
