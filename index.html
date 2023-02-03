@@ -74,7 +74,7 @@
                             <a href="week04/Exercise 4.png">Exercise 4</a>
                             <a href="week04/tablebuild.html">HTML Tables for Data Presentation</a>
                         </p>
-                        <p>week 05: <a href="https://codepen.io/rcari013/pen/PoBByeB">Pseudo-elements</a><a href="week05/new-ward-members.json">New Ward Members Sample Json</a><a href="week05/prophets.html">Fetch API</a></p>
+                        <p>week 05: <a href="https://codepen.io/rcari013/pen/PoBByeB">Pseudo-elements</a><a href="week05/new-ward-members.json">New Ward Members Sample Json</a><a href="week05/prophets/prophets.html">Fetch API</a></p>
                         <p>week 06: <a href="week06/design.html">TBA</a></p>
                         <p><a href="week02/design.html">TBA</a></p>
                     </li>
@@ -89,9 +89,14 @@
     
             <section id="information" class="card">
                 <h3>Information</h3>
-                <p id="weather">Today's weather:</p>
+                <p>Current Local Temperature: <span id="currentTemperature"></span></p>
+                <center><figure>
+                    <img id="wIcon" src="" alt="">
+                    <figcaption></figcaption>
+                </figure></center>
                 <p id="pageVisit">Visitor count:<span class="visits"></span></p>
             </section>
+
 
         </div>
 
@@ -105,9 +110,8 @@
                     <label class="top">Your Name*<input type="text" name="fname" placeholder="FirstName LastName" required></label>
                     <label class="top">Your Email*<input type="email" name="email" placeholder="example@example.com" required></label>
                     
-                    <label class="top">Username identifier*<input type="password" name="password1" pattern="(?=.*\d)(?=.*[a-z]).{5,}" title="Must contain at least one number or non numeric symbol and at least 5 or more characters" required></label>
-
-                    
+                    <label class="top">Username identifier*<input type="password" name="password1" pattern="(?=.*\d)(?=.*[a-z]).{5,}" title="Must contain at least one number or non numeric symbol and at least 5 or more characters" placeholder="5-12 char ( AZ123az!@# )" required></label>
+                  
                     <label class="top">Repeat the username identifier*<input type="password" name="password2" required></label>
                     
                     <div class="rangecontainer">
@@ -128,7 +132,7 @@
                     </div>
                 </fieldset>
                 
-                <div class="center_the_button"><input class="submitButton" onclick="testVariable()" type="submit" value="Contact Me"></div>
+                <div class="center_the_button"><input class="submitButton" type="button" value="Contact Me"></div>
 
 
 
@@ -145,37 +149,37 @@
 
         <div id="form_submitted"></div>
 
-        <table>
-            <thead>
-              <caption>Form Input</caption>
-              <tr class="center_margin">
-                
-                <th>Field</th>
-                <th>Value</th>
-                </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td class="center_text">Name:</td>
-                <td class="center_text">Pending</td>
-              </tr>
-
-              <tr>
-                <td class="center_text background_color_grey">Email:</td>
-                <td class="center_text background_color_grey">noinputyet@email.com</td>
-              </tr>
-
-            </tbody>
-
-            <tfoot>
-              <tr>
-                <td class="center_text">Username:</td>
-                <td class="center_text">none_yet</td>
-
-              </tr>
-            </tfoot>
-        </table>
+        <div id="table-div">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th colspan="2" scope="colgroup">FORM INPUTS</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">FORM FIELD</th>
+                        <th scope="col">VALUE INPUT</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td id="table-name"></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td id="table-email"></td>
+                    </tr>
+                    <tr>
+                        <td>User:</td>
+                        <td id="table-username"></td>
+                    </tr>
+                    <tr>
+                        <td>Rating:</td>
+                        <td id="table-rating"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     
     </main>
     <footer>
@@ -186,7 +190,8 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/responsiveMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
-    <script src="scripts/build_table.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/formsubmitted.js"></script>
     <script>
 
     </script>

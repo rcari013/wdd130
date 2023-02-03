@@ -318,3 +318,39 @@ form label.top input:required:valid {
     text-align: center;
 }
 
+
+/* -----------table----------------- */
+#table-div {
+    padding: 0;
+    width: 300px;
+    margin: 0;
+}
+table{
+    display: none;
+	border-collapse: collapse;
+    margin: 2rem auto;
+}
+tr:first-child th {
+    
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+th {
+    border: solid 1px var(--primary-color);
+    /* border: 1px solid var(--secondary-color); */
+	padding: 7px 15px;
+    color: white;
+    background-color: var(--accent-color);
+    
+}
+td {
+    border: solid 1px var(--primary-color);
+    color: black;
+    padding: 12px;
+}
+
+tbody tr:nth-child(even) {
+	background-color: rgba(146, 22, 111, 0.2) ;
+}
+
+
