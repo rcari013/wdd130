@@ -1,0 +1,28 @@
+{
+    "shoppingCenters": [
+      {
+        "name": "CSI",
+        "address": "1 Rizal Ave, Poblacion, Poblacion, Mangaldan, Pangasinan",
+        "phone": "PH 09120323634",
+        "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/shopping_centers/csi_mangaldan.png"
+      },
+      {
+        "name": "Magic Mall",
+        "address": "8 Rizal Ave, Poblacion, Poblacion, Mangaldan, Pangasinan",
+        "phone": "PH 09338117109",
+        "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/shopping_centers/magic_mall.png"
+      },
+      {
+        "name": "New Century Market",
+        "address": "9 Rizal Ave, Poblacion, Poblacion, Mangaldan, Pangasinan",
+        "phone": "PH 09988759358",
+        "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/shopping_centers/new_century_shoppers.png"
+      },
+      {
+        "name": "Veron'S Shoe Square",
+        "address": "10 Rizal Ave, Poblacion, Poblacion, Mangaldan, Pangasinan",
+        "phone": "PH (075)513 5864",
+        "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/shopping_centers/verons.png"
+      }
+    ]
+}

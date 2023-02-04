@@ -32,13 +32,13 @@ section {
     text-align: center;
 }
 
-.shopping_center_cards img {
+.shopping_centers_cards img {
     max-width: 200px;
      width: 100%;
      height: auto;
 }
 
-.shopping_center_cards {
+.shopping_centers_cards {
     justify-content: center;
     align-items: center;
     display: grid;
@@ -59,7 +59,7 @@ h4{
 
 @media only screen and (min-width: 37.5em) {
 
-    .shopping_center_cards {
+    .shopping_centers_cards {
         grid-template-columns: auto;
 
     }
@@ -69,7 +69,7 @@ h4{
 
 @media only screen and (min-width: 50em) {
 
-    .shopping_center_cards {
+    .shopping_centers_cards {
         grid-template-columns: auto auto;
         
 
@@ -79,7 +79,7 @@ h4{
 
 @media only screen and (min-width: 80em) {
 
-    .shopping_center_cards {
+    .shopping_centers_cards {
         grid-template-columns: auto auto auto;
 
     }
@@ -90,7 +90,7 @@ h4{
 @media only screen and (min-width: 100em) {
  
 
-    .shopping_center_cards {
+    .shopping_centers_cards {
         margin: 1rem auto;
         grid-template-columns: auto auto auto auto;
         max-width: 1048px;

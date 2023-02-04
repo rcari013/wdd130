@@ -1,4 +1,4 @@
-const requestURLShoppingCenters = 'https://github.com/rcari013/wdd230/blob/master/mangaldan_chamber_of_commerce_main/json/shoppingCenters.json';
+const requestURLShoppingCenters = 'https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/json/shoppingCenters.json';
 
 fetch(requestURLShoppingCenters)
     .then(function (response) {
