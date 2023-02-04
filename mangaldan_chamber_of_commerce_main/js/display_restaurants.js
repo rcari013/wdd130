@@ -42,7 +42,7 @@ fetch(requestURL)
 
             let image = document.createElement("img");
             image.setAttribute("src", restaurants[i].imageurl);
-            image.setAttribute("alt", restaurants[i].name + " " + restaurants[i].lastname + " - " + i)
+            image.setAttribute("alt", restaurants[i].name + " ")
             card.appendChild(image)
             
 
