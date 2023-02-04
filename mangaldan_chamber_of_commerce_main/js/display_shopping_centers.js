@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/json/shopping_centers.json';
 
 fetch(requestURL)
     .then(function (response) {
