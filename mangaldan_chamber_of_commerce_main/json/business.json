@@ -1,67 +1,64 @@
 {
     "business": [
         {
-            "name": "Bear River Bowling Center LLC",
-            "description": "Bowling Alley",
-            "phone": "435-257-1997",
-            "website": "bearriverbowling.com",
-            "imageurl": "images/brblogo.jpg"
+          "name": "459 Kitchenette",
+          "address": "459 Golea St., Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH 09339478842",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/83a980b694544903fa032b7a80387aae2e62e439/mangaldan_chamber_of_commerce_main/images/restaurants/459.png"
         },
         {
-            "name": "The Grille Restaurant",
-            "description": "American Restaurant",
-            "phone": "435-257-4745",
-            "website": "thegrillerestaurant.com",
-            "imageurl": "images/grillelogo.jpg"
+          "name": "Bobby's Lechon Manok",
+          "address": "10 Rizal Ave, Poblacion, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH 09199093713",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/bobby_letchon.png"
         },
         {
-            "name": "Maverik",
-            "description": "Fuel Supplier",
-            "phone": "435-214-4455",
-            "website": "maverik.com",
-            "imageurl": "images/mavlogo.png"
+          "name": "CNR",
+          "address": "Jimenez Street, Poblacion, Behind MetroBank, in front of Cinderella School, Poblacion, Mangaldan",
+          "phone": "PH 0929 326 1158",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/cnr.png"
         },
         {
-            "name": "Ridley’s Family Markets",
-            "description": "Grocery Store",
-            "phone": "435-557-7011",
-            "website": "shopridleys.com",
-            "imageurl": "images/ridleylogo.jpg"
+          "name": "Jollibee",
+          "address": "GF Magic Mall Bldg, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH (075) 513 5788",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/jollibee.png"
         },
         {
-            "name": "Skyway Golf Course",
-            "description": "Golf Course",
-            "phone": "435-257-5706",
-            "website": "skywaycountryclub.com",
-            "imageurl": ""
+          "name": "Mc Donalds",
+          "address": "547 Rizal Ave, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH 09224786022",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/mc_donalds.png"
         },
         {
-            "name": "Miller's Travel Centers",
-            "description": "Transportation Service",
-            "phone": "435-257-4570",
-            "website": "millerstravelcenter.com",
-            "imageurl": "images/millers.png"
+          "name": "Kalye Tres",
+          "address": "166 Justice Jimenez, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH 09196238855",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/kalye_tres.png"
         },
         {
-            "name": "Tamashi Sushi & Ramen Bar",
-            "description": "Restaurant",
-            "phone": "435-257-0978",
-            "website": "tamashisushiramenbar.com",
-            "imageurl": ""
+          "name": "Mang Inasal",
+          "address": "79 Rizal Ave, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH 09985899899",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/mang_inasal.png"
         },
         {
-            "name": "Domino’s Pizza",
-            "description": "Pizza Delivery",
-            "phone": "435-257-5881",
-            "website": "dominos.com",
-            "imageurl": "images/domlogo.jpg"
+          "name": "Migo Bobsang",
+          "address": "232 Mangaldan-Sta.Barbara Rd, Banaoang, Mangaldan, Pangasinan",
+          "phone": "PH 09156585574",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/migo_bobsang.png"
         },
         {
-            "name": "Bear River High School",
-            "description": "High School",
-            "phone": "435-515-5800",
-            "website": "brhs.besd.net",
-            "imageurl": "images/brhslogo.jpg"
+          "name": "Red Ribbon",
+          "address": "79 Rizal Ave, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH (075) 540 9718",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/red_riboon.png"
+        },
+        {
+          "name": "Sisig Norte",
+          "address": "16 Rizal Ave, Poblacion, Poblacion, Mangaldan, Pangasinan",
+          "phone": "PH 09384229477",
+          "imageurl": "https://raw.githubusercontent.com/rcari013/wdd230/master/mangaldan_chamber_of_commerce_main/images/restaurants/sisig_norte.png"
         }
-    ]
+       ]
 }
