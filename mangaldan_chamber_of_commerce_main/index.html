@@ -19,6 +19,7 @@
   <script defer src="js/nav.js"></script>
   <script defer src="js/dates.js"></script>
   <script defer src="js/slideshow.js"></script>
+  <script defer src="js/weather.js"></script>
 </head>
 
 <header>
@@ -86,6 +87,7 @@
         </ul>
       </div>
     </div>
+    <div class="increase_height"></div>
 
    
       <div class="flex-container">
@@ -115,12 +117,13 @@
             <input type="submit" class="font_25px" value="JOIN NOW"/>
           </form>
         </section>
-        <section class="flex-weather">
-            <h2>Today's Weather</h2>
-            <p><span id="current-temp"></span>&deg; 88F</p>
-            
-            <p><span id="current-desc"></span>Cloudy</p>
-            <p><span id="current-humidity"></span> 37%</p>
+
+          <section class="flex-weather">
+            <h1>Today's Weather</h1>
+            <p><span id="current-temp"></span>&deg; F</p>
+            <img src="" id="icon">
+            <p><span id="current-desc"></span></p>
+            <p><span id="current-humidity"></span> %</p>
           </section>
 
        

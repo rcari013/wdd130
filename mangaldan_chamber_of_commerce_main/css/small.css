@@ -36,9 +36,6 @@ Fonts are separated by a | */
 
 main {
   background-color: white;
-
-  
-
 }
 
 .header {
@@ -741,7 +738,26 @@ form label.top input:required{
   border-left: red solid 6px;
 
 }
+.increase_height{
+  height: 0px;
+}
 
 
 }
+
+@media only screen and (min-width: 300px) {
+
+  .increase_height{
+    height: 0px;
+  }
+
+
+}
+
+
+
+
+
+
+
 
