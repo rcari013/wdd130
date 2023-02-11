@@ -5,7 +5,7 @@ fetch(requestURLShoppingCenters)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
+        
         const shoppingCenters = jsonObject['shoppingCenters'];
         for (let i = 0; i < shoppingCenters.length; i++) {
             //create a section for card
