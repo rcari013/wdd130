@@ -27,7 +27,7 @@
 section {
     background-color: white;
     border: 1px solid var(--primary-color);
-    width: 400px;
+    width: 450px;
     height: 600px;
     text-align: center;
 }
@@ -55,6 +55,8 @@ h4{
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
+
+
 
 
 @media only screen and (min-width: 37.5em) {
@@ -97,5 +99,6 @@ h4{
     }
 
 }
+
 
 

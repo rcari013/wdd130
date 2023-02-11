@@ -26,6 +26,8 @@ fetch(requestURLShoppingCenters)
             //create a p element
             let address = document.createElement("p");
 
+
+
             //so .textContent is a way to store a text inside a newly created element huh
             
             address.textContent = "Address: " + shoppingCenters[i].address;
@@ -33,6 +35,7 @@ fetch(requestURLShoppingCenters)
             card.appendChild(address);
 
             let phone = document.createElement("p");
+
             //so .textContent is a way to store a text inside a newly created element huh
             phone.textContent = "Phone: " + shoppingCenters[i].phone;
             card.appendChild(phone);

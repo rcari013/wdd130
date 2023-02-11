@@ -33,8 +33,10 @@ fetch(requestURL)
             card.appendChild(address);
 
             let phone = document.createElement("p");
+
             //so .textContent is a way to store a text inside a newly created element huh
             phone.textContent = "Phone: " + restaurants[i].phone;
+            
             card.appendChild(phone);
 
             
