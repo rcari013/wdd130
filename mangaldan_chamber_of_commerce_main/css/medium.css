@@ -29,10 +29,25 @@ Fonts are separated by a | */
   --other-background-color-2: #707070;
   --other-background-color-3: #FAFAFF;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 481px) {
 
     .increase_height{
       height: 0px;
+    }
+    .cards{
+      display: block;
+    }
+
+    .hidden_for_300px{
+      display: block;
+    }
+
+    .add_some_px_for_margin{
+      margin-left: 0px;
+    }
+
+    .cards{
+      padding-left: 0px;
     }
   
   

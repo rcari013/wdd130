@@ -29,7 +29,7 @@ Fonts are separated by a | */
   --other-background-color: #d0d0d0;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 769px) {
   main {
     background-color: var(--accent2-color);
 
@@ -593,6 +593,17 @@ Fonts are separated by a | */
       opacity: 1;
     }
   }
+  .hidden_for_300px{
+    display: block;
+  }
+
+  .add_some_px_for_margin{
+    margin-left: 0px;
+  }
+  .cards{
+    padding-left: 0px;
+  }
+  
 }
 
 /* -------------  HOME PAGE ABOVE ------------- */
@@ -654,4 +665,6 @@ input[type="submit"]:hover {
 .foregroundbalancer{
   color: #6E6E6E;
 }
+
+
 
