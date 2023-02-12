@@ -370,7 +370,8 @@ Fonts are separated by a | */
     width: 100%;
     justify-content: space-evenly;
     text-align: center;
-    margin-right: 10px;
+
+    
   }
 
   .article {
@@ -501,6 +502,7 @@ Fonts are separated by a | */
 
 
   footer {
+    margin-top: 15px;
     background-color: var(--primary-color);
     padding: 20px;
     color: var(--other-background-color-3);
@@ -764,14 +766,18 @@ Fonts are separated by a | */
     overflow-x: hidden;
 }
 
+
+
+
 }
 
 @media only screen and (min-width: 350px) {
   .add_some_px_for_margin{
-    margin-left: 85px;
+    margin-left: 90px;
   }
   .cards{
     padding-left: 75px;
+    
   }
 
   .home_headings{
@@ -779,6 +785,8 @@ Fonts are separated by a | */
     color: var(--headline-color-on-white);
     font-weight: bold;
   }
+
+  
   
 }
 
