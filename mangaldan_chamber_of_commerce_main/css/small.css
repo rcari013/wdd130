@@ -681,8 +681,16 @@ Fonts are separated by a | */
     
   }
 
+  .text_area_size{
+    height: 500px;
+    width: 100%;
+    font-size: 30px;
+    
+  }
+
   form input{
     font-size: 30px;
+    font-family: var(--paragraph-font);
     
   }
 
