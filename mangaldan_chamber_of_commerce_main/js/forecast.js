@@ -23,7 +23,9 @@ fetch(forecastURL)
     day.innerHTML = `${days[weekday]}`.toUpperCase();
     temp.innerHTML = `${x.main.temp} °F`;
     desc.innerHTML = `${x.weather[0].description}`.toUpperCase(); 
+
     image.setAttribute('src', imagesrc);
+    image.alt = `${x.weather[0].description}`.toUpperCase() + "_" + (counter+1);
 
     if (counter >0) {
       card.classList.add("add_some_px_for_margin")
