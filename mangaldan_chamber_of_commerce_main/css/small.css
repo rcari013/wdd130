@@ -773,5 +773,11 @@ Fonts are separated by a | */
   .cards{
     padding-left: 75px;
   }
+
+  .home_headings{
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+    font-weight: bold;
+  }
 }
 
